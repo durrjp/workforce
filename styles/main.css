@@ -1,0 +1,10 @@
+.employeeContainer {
+    display:flex;
+    flex-flow: row wrap
+}
+
+.singleEmployee {
+    background-color: rgb(241, 241, 156, .7);
+    margin: 1em;
+    padding: 1em
+}
