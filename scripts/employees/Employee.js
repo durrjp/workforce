@@ -1,7 +1,7 @@
 export const Employee = (employee, computer, department, location, rEC) => {
     return `
     <div class="singleEmployee">
-        <h3>${employee.firstName} ${employee.lastName}</h3>
+        <h2>${employee.firstName} ${employee.lastName}</h2>
         <p><span class="bold">Age</span>: ${employee.age}</p>
         <p><span class="bold">Computer</span>: ${computer.model} - ${computer.year}</p>
         <p><span class="bold">Department</span>: ${department.name}</p>
