@@ -12,3 +12,8 @@
 .bold {
     font-weight: bold;
 }
+
+.customerContainer {
+    display:flex;
+    flex-flow: row wrap
+}
